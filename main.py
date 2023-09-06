@@ -12,7 +12,7 @@ try:
 
     # Check if the year entered by the user is the same as the year in the current date
     if transaction_date.year != current_date.year:
-        print("Please enter the current year.")
+        print("Please enter the current year ->")
     else:
         # Calculate the payment due date
         if transaction_date.day < 14:
